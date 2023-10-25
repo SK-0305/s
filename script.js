@@ -1,13 +1,15 @@
 const quizData = [
   {
-    question: 'What is the capital of France?',
-    options: ['Paris', 'London', 'Berlin', 'Madrid'],
-    answer: 'Paris',
+    question: 'RNA is different from DNA because RNA contains',
+    options: ['(1) ribose sugar and thymine','(2) ribose sugar and uracil','(3) deoxyribose sugar and thymine','(4) deoxyribose sugar and uracil'],
+    answer: '(2) ribose sugar and uracil',
   },
   {
-    question: 'What is the largest planet in our solar system?',
-    options: ['Mars', 'Saturn', 'Jupiter', 'Neptune'],
-    answer: 'Jupiter',
+    question: 'Which one of the following exhibits the largest number of oxidation states?',
+    options: ['(1) Mn(25)', '(2) V(23)', '(3) Cr (24)', '(4) Ti (22)
+
+'],
+    answer: '(1) Mn(25)',
   },
   {
     question: 'Which country won the FIFA World Cup in 2018?',
@@ -29,41 +31,7 @@ const quizData = [
     ],
     answer: 'Pacific Ocean',
   },
-  {
-    question: 'What is the chemical symbol for gold?',
-    options: ['Au', 'Ag', 'Cu', 'Fe'],
-    answer: 'Au',
-  },
-  {
-    question: 'Who painted the Mona Lisa?',
-    options: [
-      'Pablo Picasso',
-      'Vincent van Gogh',
-      'Leonardo da Vinci',
-      'Michelangelo',
-    ],
-    answer: 'Leonardo da Vinci',
-  },
-  {
-    question: 'Which planet is known as the Red Planet?',
-    options: ['Mars', 'Venus', 'Mercury', 'Uranus'],
-    answer: 'Mars',
-  },
-  {
-    question: 'What is the largest species of shark?',
-    options: [
-      'Great White Shark',
-      'Whale Shark',
-      'Tiger Shark',
-      'Hammerhead Shark',
-    ],
-    answer: 'Whale Shark',
-  },
-  {
-    question: 'Which animal is known as the King of the Jungle?',
-    options: ['Lion', 'Tiger', 'Elephant', 'Giraffe'],
-    answer: 'Lion',
-  },
+  
 ];
 
 const quizContainer = document.getElementById('quiz');
